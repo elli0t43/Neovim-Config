@@ -13,10 +13,11 @@ chmod +x install.sh
 ```
 
 # Todo
+- [ ] Add screenshots to README.md
 - [ ] Make a proper README.md
-- [ ] add all the plugins and configs
-- [ ] bug fixes
-- [ ] distro compatibility
+- [ ] Add all the plugins and configs
+- [ ] Bug fixes
+- [ ] Distro compatibility
 
 ## License
 [GNU GPL v3.0](https://choosealicense.com/licenses/lgpl-3.0/)
