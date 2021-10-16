@@ -12,13 +12,15 @@
 # |------~------~------~------~------~------~------~------------~------~------~------~------|
 
 if [ "$(id -u)" = 0 ]; then
-echo "|------~------~------~------~------~------~------~------------|"
-echo "|        Its not recommend to run this script as root.        |"
-echo "|   also stay near your PC, you will be asked to enter your   |"
-echo "|                     sudo password.                          |"
-echo "|------~------~------~------~------~------~------~------------|"
-exit 1
+    echo "|------~------~------~------~------~------~------~------------|"
+    echo "|        Its not recommend to run this script as root.        |"
+    echo "|   also stay near your PC, you will be asked to enter your   |"
+    echo "|                     sudo password.                          |"
+    echo "|------~------~------~------~------~------~------~------------|"
+    exit 1
 fi
+
+
 
 error() { \
     clear; printf "ERROR:\\n%s\\n" "$1" >&2; exit 1;
@@ -29,21 +31,57 @@ echo "Welcome!" && sleep 2
 echo "|------~------~------~------~------~------~------~------------|"
 echo "|         Installing Vim and Neovim if not installed          |"
 echo "|------~------~------~------~------~------~------~------------|"
-sudo pacman --noconfirm --needed -Sy vim neovim || error "Error syncing the repos." 
+sudo pacman --noconfirm --needed -Sy vim neovim || error "Error syncing the repos."
 
 echo "|------~------~------~------~------~------~------~------------|"
 echo "|        Installing Vim-Plug as a neovim plugin manager       |"
 echo "|------~------~------~------~------~------~------~------------|"
-mkdir ~/.config/nvim || error "Error creating nvim directory" 
+nvimFolder="$HOME/.config/nvim"
+
+if [ -d "$nvimFolder" ];
+then
+    echo  "$nvimFolder exist.. Aborting directory creation"
+else
+    echo "$nvimFolder doesn't exist... Creating one.."
+    mkdir $HOME/.config/nvim
+fi
+
+
+sleep 4
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-       
+
 sleep 2
 
 echo "|------~------~------~------~------~------~------~------------|"
 echo "|                 Adding nvim plugin configs                  |"
 echo "|------~------~------~------~------~------~------~------------|"
-cp init.vim ~/.config/nvim/init.vim || error "Error adding init.vim" 
-cp -r neovim-plugs-confs/ ~/.config/nvim || error "Error copying configs"  
+nvimConfigFile="$HOME/.config/nvim/init.vim"
+
+if [ -f "$nvimConfigFile" ];
+then
+    echo "init.vim found... Replacting with my config"
+    echo "backup of the old init.vim and nvim can be found in $HOME/.config/backup-neovim"
+    
+    if [ -d "$HOME/.config/backup-neovim" ];
+    then
+        echo "backup-neovim directory already exists."
+    else
+        mkdir $HOME/.config/backup-neovim
+    fi
+    cp -r $HOME/.config/nvim/ $HOME/.config/backup-neovim
+    echo "Copying init.vim"
+    cp init.vim $HOME/.config/nvim/init.vim
+    cp -r neovim-plugs-confs/ $HOME/.config/nvim/
+    echo "init.vim created.. can be found in $HOME/.config/nvim/"
+    
+else
+    echo "init.vim not found... Creating one with my config.."
+    cp init.vim $HOME/.config/nvim/init.vim
+    cp -r neovim-plugs-confs/ $HOME/.config/nvim/
+    echo "init.vim created.. can be found in $HOME/.config/nvim/"
+    
+    
+fi
 
 echo "Configs added successfully..."
 
