@@ -68,16 +68,20 @@ then
     else
         mkdir $HOME/.config/backup-neovim
     fi
-    cp -r $HOME/.config/nvim/ $HOME/.config/backup-neovim
+    sudo cp -r $HOME/.config/nvim/ $HOME/.config/backup-neovim
     echo "Copying init.vim"
     cp init.vim $HOME/.config/nvim/init.vim
     cp -r neovim-plugs-confs/ $HOME/.config/nvim/
+    cp -r general-confs/ $HOME/.config/nvim/
+    cp -r theme-confs/ $HOME/.config/nvim/
     echo "init.vim created.. can be found in $HOME/.config/nvim/"
     
 else
     echo "init.vim not found... Creating one with my config.."
     cp init.vim $HOME/.config/nvim/init.vim
     cp -r neovim-plugs-confs/ $HOME/.config/nvim/
+    cp -r general-confs/ $HOME/.config/nvim/
+    cp -r theme-confs/ $HOME/.config/nvim/
     echo "init.vim created.. can be found in $HOME/.config/nvim/"
     
     
@@ -87,6 +91,7 @@ echo "Configs added successfully..."
 
 echo "|------~------~------~------~------~------~------~------------|"
 echo "| Configs have been added,kindly open a terminal and run nvim |"
-echo "|   and run :PlugInstall to install all the plugins properly  |"
+echo "|   Do keep in mind theme and other changes will take place   |"
+echo "|                  after a neovim restart.                    |"
 echo "|------~------~------~------~------~------~------~------------|"
 exit 1
