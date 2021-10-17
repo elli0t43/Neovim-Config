@@ -18,6 +18,8 @@ chmod +x install.sh
 - [ ] Add all the plugins and configs
 - [ ] Bug fixes
 - [ ] Distro compatibility
+- [x] Added theme
+- [x] Added keymaps and neovim settings 
 
 ## License
 [GNU GPL v3.0](https://choosealicense.com/licenses/lgpl-3.0/)
