@@ -3,10 +3,10 @@ inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
 " Use alt + H,J,K,L to resize windows
-nnoremap <M-j>    :resize -2<CR>
-nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize -2<CR>
-nnoremap <M-l>    :vertical resize +2<CR>
+nnoremap <M-k>    :resize -2<CR>
+nnoremap <M-j>    :resize +2<CR>
+nnoremap <M-l>    :vertical resize -2<CR>
+nnoremap <M-h>    :vertical resize +2<CR>
 
 " Change Esc key to something else.
 inoremap jk <Esc>
