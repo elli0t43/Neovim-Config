@@ -10,7 +10,7 @@ set conceallevel=0                      " So that I can see `` in markdown files
 set cursorline                          " Enable highlighting of the current line
 set encoding=utf-8                      " The encoding displayed
 set expandtab                           " Converts tabs to spaces
-set fileencoding=utf-8                  " The encoding written to file
+" set fileencoding=utf-8                  " The encoding written to file
 set formatoptions-=cro                  " Stop newline continution of comments
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set iskeyword+=-                      	" treat dash separated words as a word text object
