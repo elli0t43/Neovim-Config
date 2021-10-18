@@ -19,7 +19,9 @@ chmod +x install.sh
 - [ ] Bug fixes
 - [ ] Distro compatibility
 - [x] Added theme
-- [x] Added keymaps and neovim settings 
+- [x] Keymaps and neovim settings
+- [x] Git integration
+- [ ] Improve install.sh 
 
 ## License
 [GNU GPL v3.0](https://choosealicense.com/licenses/lgpl-3.0/)
