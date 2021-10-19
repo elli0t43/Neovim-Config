@@ -78,7 +78,6 @@ then
     cp -r neovim-plugs-confs/ $HOME/.config/nvim/
     cp -r general-confs/ $HOME/.config/nvim/
     cp -r theme-confs/ $HOME/.config/nvim/
-    cp -r session/ $HOME/.config/nvim/
     ok "init.vim created.. can be found in $HOME/.config/nvim/"
     
 else
@@ -87,7 +86,6 @@ else
     cp -r neovim-plugs-confs/ $HOME/.config/nvim/
     cp -r general-confs/ $HOME/.config/nvim/
     cp -r theme-confs/ $HOME/.config/nvim/
-    cp -r session/ $HOME/.config/nvim/
     ok "init.vim created.. can be found in $HOME/.config/nvim/"
     
     
