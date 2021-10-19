@@ -98,4 +98,8 @@ echo "| Configs have been added,kindly open a terminal and run nvim  |"
 echo -e "|   \e[31;1mDo keep in mind theme and other changes will take place\e[39m    |"
 echo -e "\e[39m|                  \e[31;1mafter a neovim restart.\e[39m                     |"
 echo "|------~------~------~------~------~------~------~------~------|"
+sleep 2
+echo "|------~------~------~------~------~------~------~------~------|"
+echo -e "|  \e[31;1mYOU MIGHT SEE SOME ERRORS, DO NOT PANIC, JUST HIT CONTINUE\e[39m  |"
+echo "|------~------~------~------~------~------~------~------~------|"
 exit 1
