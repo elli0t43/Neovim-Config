@@ -21,6 +21,7 @@ chmod +x install.sh
 - [x] Added theme
 - [x] Keymaps and neovim settings
 - [x] Git integration
+- [x] Added Startify  
 - [ ] Improve install.sh 
 
 ## License
