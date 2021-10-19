@@ -34,5 +34,6 @@ Plug 'mikelue/vim-maven-plugin'
 Plug 'sheerun/vim-polyglot'
 Plug 'prettier/vim-prettier'
 Plug 'tpope/vim-rhubarb'
+Plug 'mhinz/vim-startify'
 Plug 'mhinz/vim-signify'
 call plug#end()
