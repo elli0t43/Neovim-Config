@@ -2,6 +2,17 @@
 
 My Neovim config with installation script
 
+## Screenshots
+
+| Welcome Page | Nerdtree |
+|--|--|
+|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/1.png)|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/2.png)|
+
+| Git | FZF |
+|--|--|
+|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/3.png)|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/4.png)|
+
+
 ## Installation
 Its still work in progress, I haven't added all plugins and configurations yet.
 ```bash
@@ -13,7 +24,7 @@ chmod +x install.sh
 ```
 
 # Todo
-- [ ] Add screenshots to README.md
+- [x] Add screenshots to README.md
 - [ ] Make a proper README.md
 - [ ] Add all the plugins and configs
 - [ ] Bug fixes
