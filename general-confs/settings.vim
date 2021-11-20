@@ -18,6 +18,7 @@ set laststatus=0                        " Always display the status line
 set mouse=a                             " Enable your mouse
 set nobackup                            " This is recommended by coc
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
+set notimeout                           " Set no timeout
 set nowrap                              " Display long lines as just one line
 set nowritebackup                       " This is recommended by coc
 set number                              " Line numbers
