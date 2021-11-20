@@ -36,4 +36,5 @@ Plug 'unblevable/quick-scope'
 Plug 'justinmk/vim-sneak'
 Plug 'mhinz/vim-startify'
 Plug 'mhinz/vim-signify'
+Plug 'liuchengxu/vim-which-key'
 call plug#end()
