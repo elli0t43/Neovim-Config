@@ -36,6 +36,7 @@ chmod +x install.sh
 - [x] Added advance mapping   
 - [ ] Improve install.sh 
 - [x] Triangle glyphs added  
+- [ ] Some LSP support + configs 
 
 ## License
 [GNU GPL v3.0](https://choosealicense.com/licenses/lgpl-3.0/)
