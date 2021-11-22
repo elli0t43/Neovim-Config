@@ -17,7 +17,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 call plug#begin("~/.config/nvim/plugged")
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'andweeb/presence.nvim'
@@ -33,6 +33,7 @@ Plug 'mikelue/vim-maven-plugin'
 Plug 'sheerun/vim-polyglot'
 Plug 'prettier/vim-prettier'
 Plug 'tpope/vim-rhubarb'
+Plug 'airblade/vim-rooter'
 Plug 'unblevable/quick-scope'
 Plug 'justinmk/vim-sneak'
 Plug 'mhinz/vim-startify'

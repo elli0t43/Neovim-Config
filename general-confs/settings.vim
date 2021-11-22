@@ -15,6 +15,7 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set iskeyword+=-                      	" treat dash separated words as a word text object
 set laststatus=0                        " Always display the status line
+set modifiable                          " Set modifiable
 set mouse=a                             " Enable your mouse
 set nobackup                            " This is recommended by coc
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
