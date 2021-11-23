@@ -35,7 +35,7 @@ echo "Welcome!" && sleep 2
 echo "|------~------~------~------~------~------~------~------~------|"
 echo "|         Installing Vim and Neovim if not installed           |"
 echo "|------~------~------~------~------~------~------~------~------|"
-sudo pacman --noconfirm --needed -Sy vim neovim || error "Error syncing the repos."
+sudo pacman --noconfirm --needed -Sy vim neovim ripgrep || error "Error syncing the repos."
 
 echo "|------~------~------~------~------~------~------~------~------|"
 echo "|        Installing Vim-Plug as a neovim plugin manager        |"
