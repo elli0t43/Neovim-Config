@@ -1,4 +1,5 @@
-# Neovim Config
+<h2>Neovim Config <img align="right" alt="Profile Hits" src="https://visitor-badge.laobi.icu/badge?page_id=elli0t43.Neovim-Config"></h2>
+
 
 My Neovim config with installation script
 
