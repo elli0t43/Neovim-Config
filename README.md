@@ -5,13 +5,13 @@ My Neovim config with installation script
 
 ## Screenshots
 
-| Welcome Page | Nerdtree |
+| Welcome Page | Git |
 |--|--|
-|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/1.png)|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/2.png)|
+|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/welcomescreen.png)|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/git.png)|
 
-| Git | FZF |
+| vsplit | Rg |
 |--|--|
-|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/3.png)|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/4.png)|
+|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/split.png)|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/rg.png)|
 
 
 ## Installation
