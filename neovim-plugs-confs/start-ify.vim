@@ -17,12 +17,8 @@ let g:startify_lists = [
           \ ]
           
 let g:startify_bookmarks = [
-            \ { 'c': '~/.config' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'z': '~/.zshrc' },
-            \ '~/Downloads',
-            \ '~/Documents',
-            \ '~/.xmonad',
             \ ]
 let g:startify_enable_special = 0
 let g:startify_session_persistence = 1
