@@ -7,11 +7,11 @@ My Neovim config with installation script
 
 | Welcome Page | Git |
 |--|--|
-|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/welcomescreen.png)|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/git.png)|
+|![img](https://github.com/elli0t43/Neovim-Config/blob/main/screenshots/welcomescreen.png)|![img](https://github.com/elli0t43/Neovim-Config/blob/main/screenshots/git.png)|
 
 | vsplit | Rg |
 |--|--|
-|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/split.png)|![img](https://github.com/elli0t43/Neovim-Config/blob/master/screenshots/rg.png)|
+|![img](https://github.com/elli0t43/Neovim-Config/blob/main/screenshots/split.png)|![img](https://github.com/elli0t43/Neovim-Config/blob/main/screenshots/rg.png)|
 
 
 ## Installation
