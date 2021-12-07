@@ -17,3 +17,5 @@ let g:airline_theme = 'onedark'
 " Always show tabs
 set showtabline=2
 
+" General configs
+let g:airline_detect_paste=1
