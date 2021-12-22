@@ -19,11 +19,10 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'nvim-lualine/lualine.nvim'
 Plug 'scrooloose/nerdtree'
 Plug 'andweeb/presence.nvim'
 Plug 'joshdick/onedark.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'wadackel/vim-dogrun'
 Plug 'tpope/vim-fugitive'
