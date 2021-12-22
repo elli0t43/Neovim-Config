@@ -16,6 +16,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 
 call plug#begin("~/.config/nvim/plugged")
 Plug 'jiangmiao/auto-pairs'
+Plug 'akinsho/bufferline.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'

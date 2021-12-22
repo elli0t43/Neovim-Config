@@ -23,3 +23,4 @@ source $HOME/.config/nvim/general-confs/key-mappings.vim
 " source $HOME/.config/nvim/theme-confs/dogrun.vim
 source $HOME/.config/nvim/theme-confs/onedark.vim
 source $HOME/.config/nvim/theme-confs/lualine.vim
+source $HOME/.config/nvim/theme-confs/bufferline.vim
