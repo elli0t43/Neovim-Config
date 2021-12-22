@@ -22,5 +22,4 @@ source $HOME/.config/nvim/general-confs/key-mappings.vim
 " Theme Configs [Dogrun-Theme, Onedark-theme, Airline-Statusline-theme-config]
 " source $HOME/.config/nvim/theme-confs/dogrun.vim
 source $HOME/.config/nvim/theme-confs/onedark.vim
-source $HOME/.config/nvim/theme-confs/airline.vim
-
+source $HOME/.config/nvim/theme-confs/lualine.vim
