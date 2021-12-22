@@ -16,7 +16,7 @@ My Neovim config with installation script
 
 ## Installation
 Its still work in progress, I haven't added all plugins and configurations yet.
->Note: This config's install script will only work in Arch based distros, if you want it for debian, simply edit the `pacman -S` to `apt install`, in the `install.sh`
+>Note: This config's install script will only work in Arch based distros, if you want it for debian, simply edit the `pacman --noconfirm --needed -Sy` to `apt install`, in the `install.sh`
 
 ```bash
 cd ~
