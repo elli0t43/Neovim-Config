@@ -33,6 +33,7 @@ set smartindent                         " Makes indenting smart
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 set t_Co=256                            " Support 256 colors
 set tabstop=2                           " Insert 2 spaces for a tab
+set termguicolors                       " set termguicolors
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set updatetime=300                      " Faster completion
 
