@@ -2,19 +2,19 @@ lua << EOF
 require('bufferline').setup {
   options = {
     numbers = "ordinal",
-    close_command = "bdelete! %d",       -- can be a string | function, see "Mouse actions"
-    right_mouse_command = "bdelete! %d", -- can be a string | function, see "Mouse actions"
-    left_mouse_command = "buffer %d",    -- can be a string | function, see "Mouse actions"
-    middle_mouse_command = nil,          -- can be a string | function, see "Mouse actions"
+    close_command = "bdelete! %d",       
+    right_mouse_command = "buffer %d", 
+    left_mouse_command = "buffer %d",  
+    middle_mouse_command = "bdelete! %d",  
     
-    indicator_icon = '▎',
+    indicator_icon = '',
     buffer_close_icon = '',
     modified_icon = '●',
     close_icon = '',
     left_trunc_marker = '',
     right_trunc_marker = '',
     
-    name_formatter = function(buf)  -- buf contains a "name", "path" and "bufnr"
+    name_formatter = function(buf) 
       if buf.name:match('%.md') then
         return vim.fn.fnamemodify(buf.name, ':t:r')
       end
