@@ -25,6 +25,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'neovim/nvim-lspconfig'
 Plug 'andweeb/presence.nvim'
 Plug 'joshdick/onedark.vim'
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 Plug 'ryanoasis/vim-devicons'
 Plug 'wadackel/vim-dogrun'
 Plug 'tpope/vim-fugitive'
