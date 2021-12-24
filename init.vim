@@ -14,6 +14,7 @@ source $HOME/.config/nvim/neovim-plugs-confs/rainbow-brackets.vim
 source $HOME/.config/nvim/neovim-plugs-confs/sneak.vim
 source $HOME/.config/nvim/neovim-plugs-confs/quickscope.vim
 source $HOME/.config/nvim/neovim-plugs-confs/fzf.vim
+luafile $HOME/.config/nvim/neovim-plugs-confs/lspconfig.lua
 
 " General Settings [Neovim-Settings, Key-Mappings]
 source $HOME/.config/nvim/general-confs/settings.vim
