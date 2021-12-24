@@ -15,6 +15,7 @@ source $HOME/.config/nvim/neovim-plugs-confs/sneak.vim
 source $HOME/.config/nvim/neovim-plugs-confs/quickscope.vim
 source $HOME/.config/nvim/neovim-plugs-confs/fzf.vim
 luafile $HOME/.config/nvim/neovim-plugs-confs/lspconfig.lua
+luafile $HOME/.config/nvim/neovim-plugs-confs/treesitter.lua
 
 " General Settings [Neovim-Settings, Key-Mappings]
 source $HOME/.config/nvim/general-confs/settings.vim
