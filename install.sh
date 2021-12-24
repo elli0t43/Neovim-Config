@@ -50,9 +50,17 @@ else
     mkdir $HOME/.config/nvim
 fi
 
-
 sleep 4
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+ok "Vim-Plug Added"
+
+echo "|------~------~------~------~------~------~------~------~------|"
+echo "|      Installing Language Servers for Native NVIM LSP         |"
+echo "|------~------~------~------~------~------~------~------~------|"
+sudo pacman --noconfirm --needed -S rust-analyzer pyright || error "Error Installing Language Servers"
+
+ok "Language Servers added"
 
 sleep 2
 
