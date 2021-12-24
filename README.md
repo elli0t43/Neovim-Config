@@ -38,8 +38,9 @@ chmod +x install.sh
 - [x] Added Startify
 - [x] Added advance mapping   
 - [ ] Improve install.sh 
-- [x] Triangle glyphs added  
-- [ ] Some LSP support + configs 
+- [x] Triangle glyphs added
+- [x] Rust, Python LSP support added  
+- [ ] Code completion  
 
 ## License
 [GNU GPL v3.0](https://choosealicense.com/licenses/lgpl-3.0/)
